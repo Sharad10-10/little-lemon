@@ -32,7 +32,7 @@ const Menu = () => {
 
 
   return (
-    <div className='mt-48'>
+    <div className='mt-48' id='menu'>
 
         <div className='flex justify-around items-center'>
             <h1 className='text-3xl'>This Week's Specials</h1>

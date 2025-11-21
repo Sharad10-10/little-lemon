@@ -1,17 +1,23 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Login from './pages/Login'
+import Reservation from './pages/Reservation'
+import HomePage from './components/HomePage'
 import Header from './components/Header'
-import Home from './components/Home'
-import Menu from './components/Menu'
-import Testimonials from './components/Testimonials'
+import ConfirmationReservation from './pages/ConfirmationReservation'
 
 
 const App = () => {
   return (
     <>
       <Header />
-      <Home />
-      <Menu />
-      <Testimonials />
+       <Routes>
+         <Route path='/' element= {<HomePage />}/>
+         <Route path='/login' element = {<Login />} />
+         <Route path = '/reservations' element = {<Reservation />} />
+         <Route path = '/confirmation' element = {<ConfirmationReservation />} />
+       </Routes>
+     
     </>
   )
 }

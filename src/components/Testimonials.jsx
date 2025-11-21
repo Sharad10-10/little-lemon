@@ -40,7 +40,7 @@ const Testimonials = () => {
     ]
 
   return (
-    <div className='bg-[rgb(72,94,88)] py-8 mt-8'>
+    <div className='bg-[rgb(72,94,88)] py-8 mt-8' id='testimonials'>
 
         <div>
             <h1 className='text-3xl text-center mt-8'>Testimonials</h1>
