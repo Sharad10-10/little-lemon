@@ -3,7 +3,7 @@ import Logo from '../assets/LogoFooter.png'
 
 const Contact = () => {
   return (
-    <div className='bg-[rgb(72,94,88)] flex justify-around text-[18px] mt-4'>
+    <div className='bg-[rgb(72,94,88)] flex gap-3 justify-around text-[18px] mt-4 px-2'>
 
         <div className='my-8'>
             <img src={Logo} alt="Logo" className='h-80 w-40 bg-white' />

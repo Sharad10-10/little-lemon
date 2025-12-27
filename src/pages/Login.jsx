@@ -64,7 +64,7 @@ const formik = useFormik({
               <p className='text-lg cursor-pointer'>Forgot Password?</p>
             </div>
 
-            <button className='bg-[rgb(244,206,19)] mt-8 text-[18px] px-8 h-14 rounded-2xl cursor-pointer'>Login</button>
+            <button className='bg-[rgb(244,206,19)] text-[18px] px-8 h-14 rounded-2xl cursor-pointer'>Login</button>
 
         </form>
 

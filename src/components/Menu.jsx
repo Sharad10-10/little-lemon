@@ -39,12 +39,12 @@ const Menu = () => {
             <button className='bg-[rgb(244,206,19)] text-[18px] px-8 h-14 rounded-2xl cursor-pointer'>Online Menu</button>
         </div>
 
-        <div className='flex justify-center gap-8 items-center mt-4 cursor-pointer'>
+        <div className='flex flex-col sm:flex-row justify-center gap-8 items-center mt-4 cursor-pointer px-2'>
             {menuList.map((menuList, index)=> {
                 return (
 
-                    <div key={index} className='max-w-72 h-104 ] bg-[rgb(225,225,225)] rounded-2xl overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-y-105'>
-                        <img src={menuList.img} alt= {menuList.title} className='w-full h-64 object-cover' />
+                    <div key={index} className='max-w-72 h-104 bg-[rgb(225,225,225)] rounded-2xl overflow-hidden hover:scale-105 transition-all'>
+                        <img src={menuList.img} alt= {menuList.title} className='w-full h-35 md:h-64 object-cover' />
 
                         <div className='flex justify-between mt-4 items-center px-2'>
                             <h2 className='text-xl'>{menuList.title}</h2>
