@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/Logo.svg'
+import Logo from '/Logo.svg'
 import { Link } from 'react-router-dom'
 import { IoClose, IoLogIn } from 'react-icons/io5';
 import { FaHome } from 'react-icons/fa';

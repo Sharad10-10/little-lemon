@@ -77,10 +77,10 @@ const formik = useFormik({
 
                 <div className='flex flex-col gap-2'>
                     <label className='text-xl' htmlFor="specialComments">Any Special Comments</label>
-                    <textarea {...formik.getFieldProps('specialComments')} className='border border-gray-500 rounded px-2 text-gray-500' id="specialComments"></textarea>
+                    <textarea {...formik.getFieldProps('specialComments')} className='border border-gray-500 rounded p-2' placeholder='...' id="specialComments"></textarea>
                 </div>
                
-                <button className='bg-[rgb(244,206,19)] text-[18px] h-14 rounded-2xl cursor-pointer'>Reserve a table</button>
+                <button className='bg-[rgb(244,206,19)] text-[18px] h-14 rounded-2xl cursor-pointer hover:scale-105 transition-all'>Confirm reservation</button>
             </form>
         </div>
 

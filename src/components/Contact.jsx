@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/LogoFooter.png'
+import Logo from '/LogoFooter.png'
 
 const Contact = () => {
   return (

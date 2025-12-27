@@ -1,6 +1,6 @@
 import React from 'react'
-import aboutImage1 from '../assets/bruchetta.svg'
-import aboutImage2 from '../assets/restauranfood.jpg'
+import aboutImage1 from '/bruchetta.svg'
+import aboutImage2 from '/restauranfood.jpg'
 
 
 const About = () => {

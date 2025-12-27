@@ -9,28 +9,28 @@ const Testimonials = () => {
     const userReviews = [
 
         {
-            imageUrl : 'src/assets/Alicia.jpg',
+            imageUrl : '/Alicia.jpg',
             userName : 'Alicia',
             userReview: 'Excellent Service and food. Recommended!!',
             userRating : '⭐⭐⭐⭐⭐'
         },
 
         {
-            imageUrl : 'src/assets/Christina.jpg',
+            imageUrl : '/Christina.jpg',
             userName : 'Christina',
             userReview: 'Hot and fresh and on time. Wonderful restaurant setting as well as service',
             userRating : '⭐⭐⭐⭐⭐'
         },
 
         {
-            imageUrl : 'src/assets/Martinez.jpg',
+            imageUrl : '/Martinez.jpg',
             userName : 'Martinez',
             userReview: 'One of the best restaurants in town. Always amazed from their service',
             userRating : '⭐⭐⭐⭐⭐'
         },
 
         {
-            imageUrl : 'src/assets/Rahul.jpg',
+            imageUrl : '/Rahul.jpg',
             userName : 'Rahul',
             userReview: 'Great customer service plus food and drinks!!',
             userRating : '⭐⭐⭐⭐⭐'

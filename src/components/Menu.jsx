@@ -4,7 +4,7 @@ const Menu = () => {
 
     const menuList = [
         {
-            img : 'src/assets/greek salad.jpg',
+            img : '/greek salad.jpg',
             price : '10.99',
             title : 'Greek salad',
             description : 'Lorem ipsum dolor sit amet, illum vituperata id mea, eius phaedrum eu duo. Te maiorum gloriatur sea.'
@@ -12,7 +12,7 @@ const Menu = () => {
         }, 
 
         {
-            img : 'src/assets/bruchetta.svg',
+            img : '/bruchetta.svg',
             price : '8.99',
             title : 'Bruchetta',
             description : 'Lorem ipsum dolor sit amet, illum vituperata id mea, eius phaedrum eu duo. Te maiorum gloriatur sea.'
@@ -21,7 +21,7 @@ const Menu = () => {
         
         {
 
-            img : 'src/assets/lemon dessert.jpg',
+            img : '/lemon dessert.jpg',
             price : '11.99',
             title : 'Lemon Dessert',
             description : 'Lorem ipsum dolor sit amet, illum vituperata id mea, eius phaedrum eu duo. Te maiorum gloriatur sea.'
