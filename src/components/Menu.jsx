@@ -12,7 +12,7 @@ const Menu = () => {
         }, 
 
         {
-            img : '/bruchetta.svg',
+            img : '/bruchetta.jpg',
             price : '8.99',
             title : 'Bruchetta',
             description : 'Lorem ipsum dolor sit amet, illum vituperata id mea, eius phaedrum eu duo. Te maiorum gloriatur sea.'

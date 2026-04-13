@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImage1 from '/bruchetta.svg'
+import aboutImage1 from '/bruchetta.jpg'
 import aboutImage2 from '/restauranfood.jpg'
 
 
